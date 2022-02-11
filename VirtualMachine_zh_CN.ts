@@ -82,43 +82,53 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="virtualmachine.ui" line="130"/>
+        <location filename="virtualmachine.ui" line="128"/>
+        <source>ISO：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="virtualmachine.ui" line="141"/>
+        <source>未选择镜像</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="virtualmachine.ui" line="156"/>
         <source>虚拟机</source>
         <oldsource>文件</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="virtualmachine.ui" line="139"/>
+        <location filename="virtualmachine.ui" line="165"/>
         <source>关于</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="virtualmachine.ui" line="152"/>
+        <location filename="virtualmachine.ui" line="178"/>
         <source>打开</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="virtualmachine.ui" line="157"/>
+        <location filename="virtualmachine.ui" line="183"/>
         <source>退出</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="virtualmachine.ui" line="162"/>
+        <location filename="virtualmachine.ui" line="188"/>
         <source>新虚拟机</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="virtualmachine.ui" line="167"/>
+        <location filename="virtualmachine.ui" line="193"/>
         <source>关于Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="virtualmachine.ui" line="172"/>
+        <location filename="virtualmachine.ui" line="198"/>
         <source>关于本软件</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="virtualmachine.ui" line="177"/>
+        <location filename="virtualmachine.ui" line="203"/>
         <source>获取源代码</source>
         <translation type="unfinished"></translation>
     </message>

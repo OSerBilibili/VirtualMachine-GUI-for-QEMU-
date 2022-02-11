@@ -33,14 +33,14 @@ public:
 
 private:
     Ui::VirtualMachine *ui;
-    QString imgFile;
-    VirtualMachineStruct machine;
+    QString imgFile; // .img文件
+    VirtualMachineStruct machine; // 虚拟机配置
 
     void onActionOpen();
-    void checkQemu();
-    bool ifFound(char *file);
+    bool ifFound(char *file); // 检测是否安装了QEMU
     void newVirtualMachine();
     void createMachine();
     void runMachine();
+    void chooseISO();
 };
 #endif // VIRTUALMACHINE_H

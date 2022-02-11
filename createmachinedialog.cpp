@@ -10,6 +10,8 @@ CreateMachineDialog::CreateMachineDialog(VirtualMachineStruct *machine, QWidget 
 
     connect(ui->pushButtonYes, &QPushButton::clicked, this, &CreateMachineDialog::onButtonClicked);
     connect(ui->pushButtonCancel, &QPushButton::clicked, this, &QDialog::close);
+
+    this->setWindowTitle("新建虚拟机");
 }
 
 CreateMachineDialog::~CreateMachineDialog()
