@@ -1,6 +1,5 @@
 #include "virtualmachine.h"
 #include "./ui_virtualmachine.h"
-#include <QDebug>
 
 VirtualMachine::VirtualMachine(QWidget *parent)
     : QMainWindow(parent)
@@ -39,7 +38,7 @@ VirtualMachine::~VirtualMachine()
 }
 
 void VirtualMachine::onActionOpen() {
-    imgFile = QFileDialog::getOpenFileName(this, "选择", ".", "Img file(*.img)");
+    imgFile = QFileDialog::getOpenFileName(this, "选择", ".", "File(*.*)");
     ui->label->setText(imgFile);
 }
 
@@ -71,7 +70,7 @@ void VirtualMachine::newVirtualMachine() {
 
 void VirtualMachine::createMachine() {
     QString command = QString::fromUtf8("qemu-img create -f ");
-    command += (machine.format + QString::fromUtf8(" ") + machine.path + QString::fromUtf8("/") + machine.name + QString::fromUtf8(".img ") + machine.size);
+    command += (machine.format + QString::fromUtf8(" ") + machine.path + QString::fromUtf8("/") + machine.name + QString::fromUtf8(" ") + machine.size);
     QProcess p(0);
     p.start(command);
     p.waitForFinished();
